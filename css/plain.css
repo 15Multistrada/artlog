@@ -1,0 +1,70 @@
+/* top menu */
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33%;
+    /* padding: 10px; */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  label {
+    font-size: 0.8rem;
+  }
+  input {
+    font-size: 0.8rem;
+    max-width: 200px;
+    border: none;
+  }
+  
+  .core {
+    margin-left: 40px;
+    margin-top: 10px;
+
+  }
+  .core-boxed {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 100px;
+    border: 1px solid black ;
+  }
+
+  .main {
+    margin-left: 40px; 
+    margin-top: 30px;
+    padding: 0px 10px;
+  }
+  table {
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 75%;
+  }
+  th,
+  td {
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    line-height: 1.5em;
+    text-align: center;
+  }
+  .hideButTakeUpSpace {
+    visibility: hidden;
+  }
+  .hideDontTakeUpSpace {
+    display: none;
+  }
+  
